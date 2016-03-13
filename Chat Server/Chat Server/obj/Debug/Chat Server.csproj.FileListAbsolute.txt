@@ -1,0 +1,12 @@
+C:\Users\Alex\Desktop\Year 2\OOP\workshop 6\Chat Server\Chat Server\bin\Debug\Chat Server.exe.config
+C:\Users\Alex\Desktop\Year 2\OOP\workshop 6\Chat Server\Chat Server\obj\Debug\Chat Server.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Year 2\OOP\workshop 6\Chat Server\Chat Server\bin\Debug\Chat Server.exe
+C:\Users\Alex\Desktop\Year 2\OOP\workshop 6\Chat Server\Chat Server\bin\Debug\Chat Server.pdb
+C:\Users\Alex\Desktop\Year 2\OOP\workshop 6\Chat Server\Chat Server\obj\Debug\Chat Server.exe
+C:\Users\Alex\Desktop\Year 2\OOP\workshop 6\Chat Server\Chat Server\obj\Debug\Chat Server.pdb
+C:\Users\Alex\Desktop\Year 2\Group Project\Chat Server\Chat Server\bin\Debug\Chat Server.exe.config
+C:\Users\Alex\Desktop\Year 2\Group Project\Chat Server\Chat Server\obj\Debug\Chat Server.exe
+C:\Users\Alex\Desktop\Year 2\Group Project\Chat Server\Chat Server\obj\Debug\Chat Server.pdb
+C:\Users\Alex\Desktop\Year 2\Group Project\Chat Server\Chat Server\bin\Debug\Chat Server.exe
+C:\Users\Alex\Desktop\Year 2\Group Project\Chat Server\Chat Server\bin\Debug\Chat Server.pdb
+C:\Users\Alex\Desktop\Year 2\Group Project\Chat Server\Chat Server\obj\Debug\Chat Server.csprojResolveAssemblyReference.cache
