@@ -16,3 +16,12 @@ C:\Users\Alex\Desktop\Year 2\SEM B Assignments\Group Project\Chat Client\Windows
 C:\Users\Alex\Desktop\Year 2\SEM B Assignments\Group Project\Chat Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\Alex\Desktop\Year 2\SEM B Assignments\Group Project\Chat Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Alex\Desktop\Year 2\SEM B Assignments\Group Project\Chat Client\WindowsFormsApplication1\obj\Debug\PCPartPicker.csproj.GenerateResource.Cache
+C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\bin\Debug\PCPartPicker Group10.exe.config
+C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\obj\Debug\PCPartPicker Group10.exe
+C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\obj\Debug\PCPartPicker Group10.pdb
+C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\bin\Debug\PCPartPicker Group10.exe
+C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\bin\Debug\PCPartPicker Group10.pdb
+C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\obj\Debug\PCPartPicker.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\obj\Debug\PCPartPicker.csproj.GenerateResource.Cache

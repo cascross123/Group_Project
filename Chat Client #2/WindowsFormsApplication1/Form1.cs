@@ -293,6 +293,7 @@ namespace WindowsFormsApplication1
             listBoxChat.SelectedIndex = listBoxChat.Items.Count - 1;
             listBoxChat.SelectedIndex = -1;
 
+            
           
 
                 if (aiActivate == true)
@@ -374,7 +375,7 @@ namespace WindowsFormsApplication1
                                 serverStream.Write(outStream, 0, outStream.Length);
                                 serverStream.Flush();
                                 Thread.Sleep(5000);
-                                outStream = System.Text.Encoding.ASCII.GetBytes("Right'o, and what budget do you have for your gaming pc? \r\n(GBP)\r\n- Low (300.00 - 500.00)\r\n- Medium (500.00 - 800.00)\r\n- High (800.00 - 1500.00)" + "$");
+                                outStream = System.Text.Encoding.ASCII.GetBytes("Right'o, and what budget do you have for your gaming pc? \r\n(GBP)\r\n- Low (300.00 - 500.00)\r\n- Middle (500.00 - 800.00)\r\n- High (800.00 - 1500.00)" + "$");
                                 serverStream.Write(outStream, 0, outStream.Length);
                                 serverStream.Flush();
                                 pcParts = "gaming";
@@ -395,7 +396,7 @@ namespace WindowsFormsApplication1
                                 serverStream.Write(outStream, 0, outStream.Length);
                                 serverStream.Flush();
                                 Thread.Sleep(5000);
-                                outStream = System.Text.Encoding.ASCII.GetBytes("Right'o, and what budget do you have for your Web and Word pc? \r\n(GBP)\r\n- Low (300.00 - 500.00)\r\n- Medium (500.00 - 800.00)" + "$");
+                                outStream = System.Text.Encoding.ASCII.GetBytes("Right'o, and what budget do you have for your Web and Word pc? \r\n(GBP)\r\n- Low (300.00 - 500.00)\r\n- Middle (500.00 - 800.00)" + "$");
                                 serverStream.Write(outStream, 0, outStream.Length);
                                 serverStream.Flush();
                                 pcParts = "web and word";
@@ -416,7 +417,7 @@ namespace WindowsFormsApplication1
                                 serverStream.Write(outStream, 0, outStream.Length);
                                 serverStream.Flush();
                                 Thread.Sleep(5000);
-                                outStream = System.Text.Encoding.ASCII.GetBytes("Right'o, and what budget do you have for your Video Editing pc? \r\n(GBP)\r\n- Low (300.00 - 500.00)\r\n- Medium (500.00 - 800.00)\r\n- High (800.00 - 1500.00)" + "$");
+                                outStream = System.Text.Encoding.ASCII.GetBytes("Right'o, and what budget do you have for your Video Editing pc? \r\n(GBP)\r\n- Low (300.00 - 500.00)\r\n- Middle (500.00 - 800.00)\r\n- High (800.00 - 1500.00)" + "$");
                                 serverStream.Write(outStream, 0, outStream.Length);
                                 serverStream.Flush();
                                 pcParts = "video editing";
@@ -437,7 +438,7 @@ namespace WindowsFormsApplication1
                                 serverStream.Write(outStream, 0, outStream.Length);
                                 serverStream.Flush();
                                 Thread.Sleep(5000);
-                                outStream = System.Text.Encoding.ASCII.GetBytes("Right'o, and what budget do you have for your Home Theater pc? \r\n(GBP)\r\n- Low (300.00 - 500.00)\r\n- Medium (500.00 - 800.00)" + "$");
+                                outStream = System.Text.Encoding.ASCII.GetBytes("Right'o, and what budget do you have for your Home Theater pc? \r\n(GBP)\r\n- Low (300.00 - 500.00)\r\n- Middle (500.00 - 800.00)" + "$");
                                 serverStream.Write(outStream, 0, outStream.Length);
                                 serverStream.Flush();
                                 pcParts = "home theater";
@@ -458,7 +459,7 @@ namespace WindowsFormsApplication1
                                 serverStream.Write(outStream, 0, outStream.Length);
                                 serverStream.Flush();
                                 Thread.Sleep(5000);
-                                outStream = System.Text.Encoding.ASCII.GetBytes("Right'o, and what budget do you have for your All Rounder pc? \r\n(GBP)\r\n- Low (300.00 - 500.00)\r\n- Medium (500.00 - 800.00)" + "$");
+                                outStream = System.Text.Encoding.ASCII.GetBytes("Right'o, and what budget do you have for your All Rounder pc? \r\n(GBP)\r\n- Low (300.00 - 500.00)\r\n- Middle (500.00 - 800.00)" + "$");
                                 serverStream.Write(outStream, 0, outStream.Length);
                                 serverStream.Flush();
                                 pcParts = "all rounder";
@@ -495,7 +496,7 @@ namespace WindowsFormsApplication1
                     {
                         if (!listBoxChat.Items[n].ToString().ToLower().Contains("-"))
                         {
-                            if (listBoxChat.Items[n].ToString().ToLower().Contains("Medium".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("500".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Mid".ToLower()))
+                            if (listBoxChat.Items[n].ToString().ToLower().Contains("Middle".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("500".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Mid".ToLower()))
                             {
                                 Thread.Sleep(2000);
                                 byte[] outStream = System.Text.Encoding.ASCII.GetBytes("is typing..." + "$");
@@ -693,7 +694,7 @@ namespace WindowsFormsApplication1
                         {
                             if (pcParts == "video editing" || pcParts == "gaming")
                             {
-                                if (listBoxChat.Items[n].ToString().ToLower().Contains("Suggest".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Suggestion".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Think".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("recommend".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Would You".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("choose".ToLower()))
+                                if (listBoxChat.Items[n].ToString().ToLower().Contains("Suggest".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Suggestion".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Think".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("recommend".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("What Would".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("choose".ToLower()))
                                 {
                                     Thread.Sleep(2000);
                                     byte[] outStream = System.Text.Encoding.ASCII.GetBytes("is typing..." + "$");
@@ -723,7 +724,7 @@ namespace WindowsFormsApplication1
                     {
                         if (!listBoxChat.Items[n].ToString().ToLower().Contains("-"))
                         {                            
-                                if (listBoxChat.Items[n].ToString().ToLower().Contains("Suggest".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Suggestion".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Think".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("recommend".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Would You".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("choose".ToLower()))
+                                if (listBoxChat.Items[n].ToString().ToLower().Contains("Suggest".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Suggestion".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("Think".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("recommend".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("What Would".ToLower()) || listBoxChat.Items[n].ToString().ToLower().Contains("choose".ToLower()))
                                 {
                                 Thread.Sleep(2000);
                                 byte[] outStream = System.Text.Encoding.ASCII.GetBytes("is typing..." + "$");
