@@ -25,3 +25,6 @@ C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\obj\Debug\PCPartPi
 C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Alex\Desktop\Chat Client #2\WindowsFormsApplication1\obj\Debug\PCPartPicker.csproj.GenerateResource.Cache
+F:\Year 2\SEM B Assignments\Group Project\Chat Client #2\WindowsFormsApplication1\bin\Debug\PCPartPicker Group10.exe.config
+F:\Year 2\SEM B Assignments\Group Project\Chat Client #2\WindowsFormsApplication1\obj\Debug\PCPartPicker Group10.exe
+F:\Year 2\SEM B Assignments\Group Project\Chat Client #2\WindowsFormsApplication1\obj\Debug\PCPartPicker Group10.pdb
